@@ -1,0 +1,408 @@
+1730534729481	geckodriver	INFO	Listening on 127.0.0.1:58057
+1730534729928	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofile7xmarD"
+1730534754201	geckodriver	INFO	Listening on 127.0.0.1:58085
+1730534754713	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofilevZdyds"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730534762265	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730534763129	Marionette	INFO	Listening on port 58091
+WebDriver BiDi listening on ws://127.0.0.1:58086
+1730534763419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WebDriver BiDi listening on ws://127.0.0.1:58058
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+1730534791436	Marionette	INFO	Stopped listening on port 58091
+1730534984136	geckodriver	INFO	Listening on 127.0.0.1:58287
+1730534984648	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofileT8FraY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730534985258	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730534985840	Marionette	INFO	Listening on port 58293
+WebDriver BiDi listening on ws://127.0.0.1:58288
+1730534985909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+1730535011296	Marionette	INFO	Stopped listening on port 58293
+1730535425216	geckodriver	INFO	Listening on 127.0.0.1:58403
+1730535425719	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofileBu6eXz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730535426408	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730535427048	Marionette	INFO	Listening on port 58409
+WebDriver BiDi listening on ws://127.0.0.1:58404
+1730535427126	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1730535429186	Marionette	INFO	Stopped listening on port 58409
+console.error: services.settings: 
+  main/tracking-protection-lists Signature failed  [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 128"  data: no]
+console.error: ({})
+console.error: ({})
+1730535589716	geckodriver	INFO	Listening on 127.0.0.1:58441
+1730535590229	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofileRKyop4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730535590771	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730535591358	Marionette	INFO	Listening on port 58447
+WebDriver BiDi listening on ws://127.0.0.1:58442
+1730535591606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+1730535610722	Marionette	INFO	Stopped listening on port 58447
+1730535654151	geckodriver	INFO	Listening on 127.0.0.1:58533
+1730535654663	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofileCGSzvs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730535655178	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730535655747	Marionette	INFO	Listening on port 58539
+WebDriver BiDi listening on ws://127.0.0.1:58534
+1730535655991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+1730535671446	Marionette	INFO	Stopped listening on port 58539
+1730535895822	geckodriver	INFO	Listening on 127.0.0.1:58623
+1730535896318	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofileem6vv0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730535896832	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730535897400	Marionette	INFO	Listening on port 58629
+WebDriver BiDi listening on ws://127.0.0.1:58624
+1730535897639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+1730535934065	Marionette	INFO	Stopped listening on port 58629
+1730536158573	geckodriver	INFO	Listening on 127.0.0.1:58720
+1730536159089	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofilep4y6Ha"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730536159608	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730536160185	Marionette	INFO	Listening on port 58726
+WebDriver BiDi listening on ws://127.0.0.1:58721
+1730536160431	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: aWindow is null
+1730536174334	Marionette	INFO	Stopped listening on port 58726
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: ({})
+console.error: ({})
+1730536338910	geckodriver	INFO	Listening on 127.0.0.1:58779
+1730536339423	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofile8S0aTE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730536339945	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730536340545	Marionette	INFO	Listening on port 58785
+WebDriver BiDi listening on ws://127.0.0.1:58780
+1730536340790	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: aWindow is null
+1730536371264	Marionette	INFO	Stopped listening on port 58785
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: ({})
+console.error: ({})
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 128
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":24,"lineNumber":128,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":23,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":23,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_validateCollectionSignature","sourceId":21,"lineNumber":1012,"columnNumber":47,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"maybeSync","sourceId":21,"lineNumber":729,"columnNumber":26,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:729:26\n","nativeSavedFrame":{}},"formattedStack":"_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1012:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:729:26\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1012:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:729:26\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1012:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:729:26\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:128:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1012:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:729:26\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:128:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1012:47|maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:729:26|
+  - prototype Object
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.warn: services.settings: main/search-config-v2 sync interrupted by shutdown
+console.warn: services.settings: main/newtab-wallpapers-v2 sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/backup-recovery-download-links getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1730536445159	geckodriver	INFO	Listening on 127.0.0.1:58865
+1730536445671	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofileQE70Mb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730536446188	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730536446779	Marionette	INFO	Listening on port 58871
+WebDriver BiDi listening on ws://127.0.0.1:58866
+1730536447024	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+1730536603603	Marionette	INFO	Stopped listening on port 58871
+1730536621604	geckodriver	INFO	Listening on 127.0.0.1:58958
+1730536622115	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofileigaYno"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730536622634	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730536623217	Marionette	INFO	Listening on port 58964
+WebDriver BiDi listening on ws://127.0.0.1:58959
+1730536623462	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+1730536794975	Marionette	INFO	Stopped listening on port 58964
+1730536839123	geckodriver	INFO	Listening on 127.0.0.1:59049
+1730536839638	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofileIEuHeL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730536840166	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730536840763	Marionette	INFO	Listening on port 59055
+WebDriver BiDi listening on ws://127.0.0.1:59050
+1730536841006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+1730537004500	Marionette	INFO	Stopped listening on port 59055
+1730537202655	geckodriver	INFO	Listening on 127.0.0.1:59141
+1730537203167	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofilecyY051"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730537203676	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730537204257	Marionette	INFO	Listening on port 59147
+WebDriver BiDi listening on ws://127.0.0.1:59142
+1730537204500	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+1730537368295	Marionette	INFO	Stopped listening on port 59147
+1730537373664	geckodriver	INFO	Listening on 127.0.0.1:59233
+1730537374176	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofilePgsOGZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730537374715	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730537375297	Marionette	INFO	Listening on port 59239
+WebDriver BiDi listening on ws://127.0.0.1:59234
+1730537375542	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: aWindow is null
+1730537566024	geckodriver	INFO	Listening on 127.0.0.1:59334
+1730537566536	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofileXQ7TCh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730537567060	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730537567640	Marionette	INFO	Listening on port 59340
+WebDriver BiDi listening on ws://127.0.0.1:59335
+1730537567884	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+1730537587632	Marionette	INFO	Stopped listening on port 59340
+1730537628768	geckodriver	INFO	Listening on 127.0.0.1:59425
+1730537629281	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofilejkTfMm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730537629797	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730537630365	Marionette	INFO	Listening on port 59431
+WebDriver BiDi listening on ws://127.0.0.1:59426
+1730537630608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+1730537650132	Marionette	INFO	Stopped listening on port 59431
+1730537818695	geckodriver	INFO	Listening on 127.0.0.1:59624
+1730537819194	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofileudMzqI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730537819708	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730537820281	Marionette	INFO	Listening on port 59630
+WebDriver BiDi listening on ws://127.0.0.1:59625
+1730537820526	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+1730537845514	Marionette	INFO	Stopped listening on port 59630
+1730538033045	geckodriver	INFO	Listening on 127.0.0.1:59728
+1730538033557	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofilek9udVS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730538034108	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730538034701	Marionette	INFO	Listening on port 59734
+WebDriver BiDi listening on ws://127.0.0.1:59729
+1730538034951	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+1730538055938	Marionette	INFO	Stopped listening on port 59734
+1730538542021	geckodriver	INFO	Listening on 127.0.0.1:59843
+1730538542520	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofilejsnrDn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730538543047	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730538543618	Marionette	INFO	Listening on port 59849
+WebDriver BiDi listening on ws://127.0.0.1:59844
+1730538543862	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+1730538566329	Marionette	INFO	Stopped listening on port 59849
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+1730538688849	geckodriver	INFO	Listening on 127.0.0.1:59953
+1730538689359	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofileQNsIEP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730538689923	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730538690492	Marionette	INFO	Listening on port 59959
+WebDriver BiDi listening on ws://127.0.0.1:59954
+1730538690736	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+1730538710834	Marionette	INFO	Stopped listening on port 59959
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+1730538948985	geckodriver	INFO	Listening on 127.0.0.1:60069
+1730538949492	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofileYUI3EQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730538950001	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730538950571	Marionette	INFO	Listening on port 60075
+WebDriver BiDi listening on ws://127.0.0.1:60070
+1730538950816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+1730538976528	Marionette	INFO	Stopped listening on port 60075
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+1730539282947	geckodriver	INFO	Listening on 127.0.0.1:60205
+1730539283457	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofileVpBelN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730539283968	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730539284550	Marionette	INFO	Listening on port 60211
+WebDriver BiDi listening on ws://127.0.0.1:60206
+1730539284772	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+1730539304075	Marionette	INFO	Stopped listening on port 60211
+1730539368260	geckodriver	INFO	Listening on 127.0.0.1:60302
+1730539368770	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofile5snI5u"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730539369288	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730539369851	Marionette	INFO	Listening on port 60308
+WebDriver BiDi listening on ws://127.0.0.1:60303
+1730539370096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+1730539389559	Marionette	INFO	Stopped listening on port 60308
+1730540017172	geckodriver	INFO	Listening on 127.0.0.1:60438
+1730540017682	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofileGkgkpq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730540018223	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730540018791	Marionette	INFO	Listening on port 60444
+WebDriver BiDi listening on ws://127.0.0.1:60439
+1730540019042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+1730540043508	Marionette	INFO	Stopped listening on port 60444
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+1730540463300	geckodriver	INFO	Listening on 127.0.0.1:60570
+1730540463809	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x5/bgwtg65x6kv34v9pg1yv9pm00000gn/T/rust_mozprofileposlgJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730540464331	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730540464895	Marionette	INFO	Listening on port 60576
+WebDriver BiDi listening on ws://127.0.0.1:60571
+1730540465141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://enterprise.login.utexas.edu."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: ({})
+JavaScript error: https://utdirect.utexas.edu/apps/registrar/course_schedule/static/schedule/js/fos.js, line 9: TypeError: abbreviationSelect is null
+1730540488986	Marionette	INFO	Stopped listening on port 60576
+1730543924669	Marionette	INFO	Stopped listening on port 59239
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: ({})
+console.error: ({})
