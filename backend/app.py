@@ -1,6 +1,8 @@
 from datetime import datetime
-from flask import Flask, jsonify
+from flask import Flask, jsonify, Response
 from pymongo import MongoClient
+import csv
+import io
 import os
 from dotenv import load_dotenv
 
@@ -28,11 +30,11 @@ def get_current_day_and_time():
     current_time = now.time()
     return current_day, current_time
 
-# Endpoint to get available room count for each building
-@app.route('/api/building_availability', methods=['GET'])
-def get_building_availability():
+# Endpoint to get available room count for each building in CSV format
+@app.route('/api/building_availability_csv', methods=['GET'])
+def get_building_availability_csv():
     try:
-        building_availability = {}
+        building_availability = []
         current_day, current_time = get_current_day_and_time()
 
         # Fetch the single document containing all building data
@@ -65,13 +67,22 @@ def get_building_availability():
                 if is_available:
                     available_count += 1
 
-            building_availability[building_name] = {
+            # Add building data to the list
+            building_availability.append({
+                "building_name": building_name,
                 "total_rooms": total_rooms,
                 "available_count": available_count
-            }
+            })
 
-        # Return the building availability data
-        return jsonify(building_availability)
+        # Create a CSV output
+        output = io.StringIO()
+        writer = csv.DictWriter(output, fieldnames=["building_name", "total_rooms", "available_count"])
+        writer.writeheader()
+        writer.writerows(building_availability)
+        
+        # Return as CSV file response
+        output.seek(0)
+        return Response(output, mimetype="text/csv", headers={"Content-Disposition": "attachment;filename=building_availability.csv"})
 
     except Exception as e:
         print(f"Internal server error: {e}")
