@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react"
+import { useEffect, useRef } from "react"
 import WebMap from "@arcgis/core/WebMap"
 import MapView from "@arcgis/core/views/MapView"
 import OAuthInfo from "@arcgis/core/identity/OAuthInfo"
@@ -10,9 +10,12 @@ interface FeatureData {
   attributes: Record<string, any>
 }
 
-const CampusMap: React.FC = () => {
+interface CampusMapProps {
+  setFeatures: React.Dispatch<React.SetStateAction<FeatureData[]>>
+}
+
+export default function CampusMap({ setFeatures }: CampusMapProps) {
   const mapDiv = useRef<HTMLDivElement>(null)
-  const [features, setFeatures] = useState<FeatureData[]>([])
 
   useEffect(() => {
     if (typeof window === "undefined") return // Exit if not in the browser
@@ -79,36 +82,7 @@ const CampusMap: React.FC = () => {
         mapDiv.current.innerHTML = ""
       }
     }
-  }, [])
+  }, [setFeatures])
 
-  return (
-    <div style={{ display: "flex", height: "100vh", width: "100%" }}>
-      <div ref={mapDiv} style={{ flex: 1, height: "100%" }} />
-      <div style={{ width: "300px", overflowY: "scroll", padding: "10px", borderLeft: "1px solid #ccc" }}>
-        <h3>Feature Layer Data</h3>
-        {features.length > 0 ? (
-          <ul>
-            {features.map((feature) => (
-              <li key={feature.id}>
-                <strong>ID:</strong> {feature.id}
-                <br />
-                <strong>Attributes:</strong>
-                <ul>
-                  {Object.entries(feature.attributes).map(([key, value]) => (
-                    <li key={key}>
-                      {key}: {value?.toString() || "N/A"}
-                    </li>
-                  ))}
-                </ul>
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p>Loading features...</p>
-        )}
-      </div>
-    </div>
-  )
+  return <div ref={mapDiv} style={{ height: "100vh", width: "100%" }} />
 }
-
-export default CampusMap
