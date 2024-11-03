@@ -27,7 +27,7 @@ export default function CampusMap({ setRooms }: CampusMapProps) {
 
         const webMap = new WebMap({
           portalItem: {
-            id: "2ae983502d6840fea528343b628b87a9",
+            id: "c203b2f9de2e44218b84e16eefe40949",
           },
         })
 
