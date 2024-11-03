@@ -8,9 +8,10 @@ import { Room } from "@/types/Room"
 
 interface CampusMapProps {
   setRooms: React.Dispatch<React.SetStateAction<Room[]>>
+  openAdditionalInfo: (room: Room) => void
 }
 
-export default function CampusMap({ setRooms }: CampusMapProps) {
+export default function CampusMap({ setRooms, openAdditionalInfo }: CampusMapProps) {
   const mapDiv = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
