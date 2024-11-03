@@ -1,7 +1,7 @@
 import os
 import json
 import re
-from datetime import datetime, timedelta
+from datetime import datetime
 from pymongo import MongoClient
 from dotenv import load_dotenv
 
@@ -52,7 +52,11 @@ def split_days(days_str):
 with open("backend/ut_courses.json", "r") as file:
     course_data = json.load(file)
 
-structured_data = {}
+# Initialize structured data with a list of buildings
+structured_data = []
+
+# Temporary dictionary to hold buildings for easy access before sorting
+temp_buildings = {}
 
 for course in course_data:
     if not course.get("rooms") or not course.get("days") or not course.get("hours"):
@@ -68,15 +72,14 @@ for course in course_data:
     if start_time is None or end_time is None:
         continue
 
-    if building_name not in structured_data:
-        structured_data[building_name] = {"total_rooms": 0, "rooms": {}}
+    if building_name not in temp_buildings:
+        temp_buildings[building_name] = {"name": building_name, "rooms": {}}
 
-    if room_number not in structured_data[building_name]["rooms"]:
-        structured_data[building_name]["rooms"][room_number] = []
-        structured_data[building_name]["total_rooms"] += 1
+    if room_number not in temp_buildings[building_name]["rooms"]:
+        temp_buildings[building_name]["rooms"][room_number] = []
 
     for day in days:
-        structured_data[building_name]["rooms"][room_number].append({
+        temp_buildings[building_name]["rooms"][room_number].append({
             "day": day,
             "start_time": start_time.strftime("%I:%M %p"),
             "end_time": end_time.strftime("%I:%M %p"),
@@ -84,6 +87,32 @@ for course in course_data:
             "instructor": course.get("instructor", "Unknown")
         })
 
+# Function to define a custom sorting key for room numbers
+def room_sort_key(room):
+    # Use regex to extract numbers from the room number, if any
+    numbers = re.findall(r'\d+', room)
+    # Convert extracted numbers to integers for sorting, fill with large value if missing part
+    main_number = int(numbers[0]) if numbers else float('inf')
+    sub_number = int(numbers[1]) if len(numbers) > 1 else float('inf')
+    return (main_number, sub_number)
+
+# Sort rooms and convert buildings to the final structure
+for building_name in sorted(temp_buildings):
+    building = temp_buildings[building_name]
+    sorted_rooms = sorted(building["rooms"].items(), key=lambda x: room_sort_key(x[0]))  # Sort rooms by custom key
+    structured_data.append({
+        "name": building_name,
+        "total_rooms": len(sorted_rooms),
+        "rooms": [
+            {
+                "room_number": room_number,
+                "schedule": schedule
+            }
+            for room_number, schedule in sorted_rooms
+        ]
+    })
+
+# Function to sort schedule by day and time
 day_order = {
     "Monday": 1,
     "Tuesday": 2,
@@ -95,24 +124,20 @@ day_order = {
 }
 
 def sort_schedule_by_day_and_time(structured_data):
-    for building_name, building_data in structured_data.items():
-        for room, schedule in building_data["rooms"].items():
-            structured_data[building_name]["rooms"][room].sort(
+    for building in structured_data:
+        for room in building["rooms"]:
+            room["schedule"].sort(
                 key=lambda x: (day_order[x["day"]], datetime.strptime(x["start_time"], "%I:%M %p"))
             )
 
+# Apply sorting to the schedules
 sort_schedule_by_day_and_time(structured_data)
 
 # Upload structured data to MongoDB
 try:
-    if isinstance(structured_data, dict):
-        result = collection.insert_one(structured_data)
-        print(f"Structured data inserted with ID: {result.inserted_id}")
-    elif isinstance(structured_data, list):
-        result = collection.insert_many(structured_data)
-        print(f"Inserted {len(result.inserted_ids)} documents")
-    else:
-        print("Unexpected data format. Expected a dictionary or list of dictionaries.")
+    collection.delete_many({})  # Clear any existing data
+    result = collection.insert_one({"buildings": structured_data})
+    print(f"Structured data inserted with ID: {result.inserted_id}")
 except Exception as e:
     print(f"Error inserting data into MongoDB: {e}")
 
