@@ -13,9 +13,9 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col h-screen">
-      <Header />
+      {/* <Header /> */}
       <div className="flex flex-1">
-        <ControlPanel view={view} setView={setView} />
+        <ControlPanel view={view} setView={setView} rooms={rooms} setRooms={setRooms} />
         <div className="flex-1">{view === "map" ? <CampusMap setRooms={setRooms} /> : <ListView rooms={rooms} />}</div>
       </div>
     </div>
