@@ -1,0 +1,3421 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73786803602141,
+                    30.28853501672323
+                ]
+            },
+            "properties": {
+                "name": "AHG",
+                "total_rooms": 3
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73300100012356,
+                    30.28620099196499
+                ]
+            },
+            "properties": {
+                "name": "ART",
+                "total_rooms": 30
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73723696253134,
+                    30.29117598677574
+                ]
+            },
+            "properties": {
+                "name": "ASE",
+                "total_rooms": 6
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73893496847661,
+                    30.284379017671753
+                ]
+            },
+            "properties": {
+                "name": "BAT",
+                "total_rooms": 2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73333300730835,
+                    30.283948984129324
+                ]
+            },
+            "properties": {
+                "name": "BEL",
+                "total_rooms": 16
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73893496847661,
+                    30.284379017671753
+                ]
+            },
+            "properties": {
+                "name": "BEN",
+                "total_rooms": 8
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7397729911561,
+                    30.28722400324756
+                ]
+            },
+            "properties": {
+                "name": "BIO",
+                "total_rooms": 7
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7385590401192,
+                    30.288938982546767
+                ]
+            },
+            "properties": {
+                "name": "BME",
+                "total_rooms": 7
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7367290191989,
+                    30.285230996220008
+                ]
+            },
+            "properties": {
+                "name": "BRB",
+                "total_rooms": 3
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7385590401192,
+                    30.288938982546767
+                ]
+            },
+            "properties": {
+                "name": "BUR",
+                "total_rooms": 23
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74019895947548,
+                    30.284471009059104
+                ]
+            },
+            "properties": {
+                "name": "CAL",
+                "total_rooms": 8
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73806903405956,
+                    30.284185982441613
+                ]
+            },
+            "properties": {
+                "name": "CBA",
+                "total_rooms": 20
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72994154033523,
+                    30.287546860988932
+                ]
+            },
+            "properties": {
+                "name": "CCJ",
+                "total_rooms": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73789603157802,
+                    30.289221997507482
+                ]
+            },
+            "properties": {
+                "name": "CMA",
+                "total_rooms": 20
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73789603157802,
+                    30.289221997507482
+                ]
+            },
+            "properties": {
+                "name": "CMB",
+                "total_rooms": 7
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73615301481269,
+                    30.29023997964815
+                ]
+            },
+            "properties": {
+                "name": "CPE",
+                "total_rooms": 16
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74010600416926,
+                    30.28870299006286
+                ]
+            },
+            "properties": {
+                "name": "CRD",
+                "total_rooms": 2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73130500583504,
+                    30.286251995845817
+                ]
+            },
+            "properties": {
+                "name": "DFA",
+                "total_rooms": 8
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7408219863385,
+                    30.290212989919922
+                ]
+            },
+            "properties": {
+                "name": "DMC",
+                "total_rooms": 13
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73538397519634,
+                    30.28851301422739
+                ]
+            },
+            "properties": {
+                "name": "ECJ",
+                "total_rooms": 24
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73538397519634,
+                    30.28851301422739
+                ]
+            },
+            "properties": {
+                "name": "EER",
+                "total_rooms": 16
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73667403391407,
+                    30.285774017817232
+                ]
+            },
+            "properties": {
+                "name": "EPS",
+                "total_rooms": 5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73538196353958,
+                    30.28993399827273
+                ]
+            },
+            "properties": {
+                "name": "ETC",
+                "total_rooms": 17
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74031697667219,
+                    30.28628598446319
+                ]
+            },
+            "properties": {
+                "name": "FAC",
+                "total_rooms": 5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7325359721354,
+                    30.289428988606403
+                ]
+            },
+            "properties": {
+                "name": "FDG",
+                "total_rooms": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7325359721354,
+                    30.289428988606403
+                ]
+            },
+            "properties": {
+                "name": "FDH",
+                "total_rooms": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73803802101781,
+                    30.287673985719522
+                ]
+            },
+            "properties": {
+                "name": "FNT",
+                "total_rooms": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73853498405708,
+                    30.285156984014975
+                ]
+            },
+            "properties": {
+                "name": "GAR",
+                "total_rooms": 11
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73577599680786,
+                    30.286574992484674
+                ]
+            },
+            "properties": {
+                "name": "GDC",
+                "total_rooms": 12
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73922498232649,
+                    30.287730018742252
+                ]
+            },
+            "properties": {
+                "name": "GEA",
+                "total_rooms": 13
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7359060001261,
+                    30.287498007662364
+                ]
+            },
+            "properties": {
+                "name": "GLT",
+                "total_rooms": 5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74117100878674,
+                    30.28543300008654
+                ]
+            },
+            "properties": {
+                "name": "GOL",
+                "total_rooms": 9
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73634303255767,
+                    30.284018009101985
+                ]
+            },
+            "properties": {
+                "name": "GRE",
+                "total_rooms": 3
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73806903405956,
+                    30.284185982441613
+                ]
+            },
+            "properties": {
+                "name": "GSB",
+                "total_rooms": 11
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73995202860793,
+                    30.287778005137937
+                ]
+            },
+            "properties": {
+                "name": "GWB",
+                "total_rooms": 2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73332797816644,
+                    30.275507988536503
+                ]
+            },
+            "properties": {
+                "name": "HLB",
+                "total_rooms": 2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74019895947548,
+                    30.284471009059104
+                ]
+            },
+            "properties": {
+                "name": "HRH",
+                "total_rooms": 3
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.746736005762,
+                    30.29480300391782
+                ]
+            },
+            "properties": {
+                "name": "IC2",
+                "total_rooms": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73878207138719,
+                    30.283530648079296
+                ]
+            },
+            "properties": {
+                "name": "JES",
+                "total_rooms": 12
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73564398183285,
+                    30.28586098006268
+                ]
+            },
+            "properties": {
+                "name": "JGB",
+                "total_rooms": 13
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7310190152987,
+                    30.288529987581327
+                ]
+            },
+            "properties": {
+                "name": "JON",
+                "total_rooms": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72733500121502,
+                    30.28435999075154
+                ]
+            },
+            "properties": {
+                "name": "LBJ",
+                "total_rooms": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73564398183285,
+                    30.28586098006268
+                ]
+            },
+            "properties": {
+                "name": "LTH",
+                "total_rooms": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73939697897966,
+                    30.286021996422676
+                ]
+            },
+            "properties": {
+                "name": "MAI",
+                "total_rooms": 6
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7385590401192,
+                    30.288938982546767
+                ]
+            },
+            "properties": {
+                "name": "MBB",
+                "total_rooms": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73893496847661,
+                    30.284379017671753
+                ]
+            },
+            "properties": {
+                "name": "MEZ",
+                "total_rooms": 18
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73014532949604,
+                    30.286926927888217
+                ]
+            },
+            "properties": {
+                "name": "MRH",
+                "total_rooms": 23
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73333300730835,
+                    30.283948984129324
+                ]
+            },
+            "properties": {
+                "name": "NEZ",
+                "total_rooms": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73803802101781,
+                    30.287673985719522
+                ]
+            },
+            "properties": {
+                "name": "NHB",
+                "total_rooms": 8
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73352403088171,
+                    30.27774201718985
+                ]
+            },
+            "properties": {
+                "name": "NUR",
+                "total_rooms": 17
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73130500583504,
+                    30.286251995845817
+                ]
+            },
+            "properties": {
+                "name": "PAC",
+                "total_rooms": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73857597156362,
+                    30.28695398023676
+                ]
+            },
+            "properties": {
+                "name": "PAI",
+                "total_rooms": 19
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74019895947548,
+                    30.284471009059104
+                ]
+            },
+            "properties": {
+                "name": "PAR",
+                "total_rooms": 23
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7387659893086,
+                    30.288161980122396
+                ]
+            },
+            "properties": {
+                "name": "PHR",
+                "total_rooms": 12
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73629802173762,
+                    30.288915010303683
+                ]
+            },
+            "properties": {
+                "name": "PMA",
+                "total_rooms": 30
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73577599680786,
+                    30.286574992484674
+                ]
+            },
+            "properties": {
+                "name": "POB",
+                "total_rooms": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73482283361642,
+                    30.285248711024288
+                ]
+            },
+            "properties": {
+                "name": "RLP",
+                "total_rooms": 31
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74124099767825,
+                    30.2818659973712
+                ]
+            },
+            "properties": {
+                "name": "RRH",
+                "total_rooms": 16
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73240102349426,
+                    30.28153000878241
+                ]
+            },
+            "properties": {
+                "name": "RSC",
+                "total_rooms": 5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73768598108444,
+                    30.290040993266757
+                ]
+            },
+            "properties": {
+                "name": "SEA",
+                "total_rooms": 11
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72903200133193,
+                    30.285377008973327
+                ]
+            },
+            "properties": {
+                "name": "SRH",
+                "total_rooms": 14
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74045748448924,
+                    30.28502845253942
+                ]
+            },
+            "properties": {
+                "name": "SUT",
+                "total_rooms": 15
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73877596377338,
+                    30.281677991282976
+                ]
+            },
+            "properties": {
+                "name": "SZB",
+                "total_rooms": 33
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72907701215198,
+                    30.287052006594394
+                ]
+            },
+            "properties": {
+                "name": "TCC",
+                "total_rooms": 2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7310190152987,
+                    30.288529987581327
+                ]
+            },
+            "properties": {
+                "name": "TNH",
+                "total_rooms": 14
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73347399091975,
+                    30.27987998923281
+                ]
+            },
+            "properties": {
+                "name": "TSC",
+                "total_rooms": 2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74249172651352,
+                    30.279448968421217
+                ]
+            },
+            "properties": {
+                "name": "UTA",
+                "total_rooms": 7
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73840900405236,
+                    30.28286201892554
+                ]
+            },
+            "properties": {
+                "name": "UTC",
+                "total_rooms": 31
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73761297470779,
+                    30.285118008165213
+                ]
+            },
+            "properties": {
+                "name": "WAG",
+                "total_rooms": 12
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73840799822398,
+                    30.286089009738575
+                ]
+            },
+            "properties": {
+                "name": "WCH",
+                "total_rooms": 2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73676103806903,
+                    30.28493000207699
+                ]
+            },
+            "properties": {
+                "name": "WCP",
+                "total_rooms": 9
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73776301077463,
+                    30.286614010243966
+                ]
+            },
+            "properties": {
+                "name": "WEL",
+                "total_rooms": 17
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73482541327218,
+                    30.285272362394352
+                ]
+            },
+            "properties": {
+                "name": "WIN",
+                "total_rooms": 20
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74046701273903,
+                    30.285424995369013
+                ]
+            },
+            "properties": {
+                "name": "WMB",
+                "total_rooms": 6
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74157077916655,
+                    30.289040351733075
+                ]
+            },
+            "properties": {
+                "name": "WWH",
+                "total_rooms": 2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74041001579744,
+                    30.29170501059467
+                ]
+            },
+            "properties": {
+                "name": "ADH",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72689372646501,
+                    30.286575833897473
+                ]
+            },
+            "properties": {
+                "name": "AF1",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72660051380623,
+                    30.28451420207635
+                ]
+            },
+            "properties": {
+                "name": "AF2",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72656976704762,
+                    30.284561605778762
+                ]
+            },
+            "properties": {
+                "name": "AFP",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73103100142023,
+                    30.278250002431804
+                ]
+            },
+            "properties": {
+                "name": "ANB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73939102782839,
+                    30.288674994506252
+                ]
+            },
+            "properties": {
+                "name": "AND",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73629601008086,
+                    30.29159897951949
+                ]
+            },
+            "properties": {
+                "name": "ARC",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74024195863876,
+                    30.281648989897988
+                ]
+            },
+            "properties": {
+                "name": "ATT",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73196445009332,
+                    30.280988297107506
+                ]
+            },
+            "properties": {
+                "name": "BBR",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73857597156362,
+                    30.28695398023676
+                ]
+            },
+            "properties": {
+                "name": "BGH",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73859198125089,
+                    30.283513690587803
+                ]
+            },
+            "properties": {
+                "name": "BHD",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73939102782839,
+                    30.288674994506252
+                ]
+            },
+            "properties": {
+                "name": "BLD",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73801970918258,
+                    30.280664338086957
+                ]
+            },
+            "properties": {
+                "name": "BMA",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73804727245937,
+                    30.280671333071755
+                ]
+            },
+            "properties": {
+                "name": "BMK",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73880117704819,
+                    30.280891580882294
+                ]
+            },
+            "properties": {
+                "name": "BMS",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7397729911561,
+                    30.28722400324756
+                ]
+            },
+            "properties": {
+                "name": "BOT",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73621596290553,
+                    30.28091100523291
+                ]
+            },
+            "properties": {
+                "name": "BRG",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73592712155076,
+                    30.281486406568604
+                ]
+            },
+            "properties": {
+                "name": "BSB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74033696624518,
+                    30.285132266122105
+                ]
+            },
+            "properties": {
+                "name": "BTL",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73823801322759,
+                    30.29080701539796
+                ]
+            },
+            "properties": {
+                "name": "BWY",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74047799303219,
+                    30.282345987056544
+                ]
+            },
+            "properties": {
+                "name": "CCG",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7256619733412,
+                    30.28298100004112
+                ]
+            },
+            "properties": {
+                "name": "CDA",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73304500511523,
+                    30.278755012098117
+                ]
+            },
+            "properties": {
+                "name": "CDL",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73644504031932,
+                    30.29065199209873
+                ]
+            },
+            "properties": {
+                "name": "CEE",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73835004722196,
+                    30.283492116539726
+                ]
+            },
+            "properties": {
+                "name": "CLK",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72531999169165,
+                    30.282577998136446
+                ]
+            },
+            "properties": {
+                "name": "CML",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7380410257484,
+                    30.28565339670515
+                ]
+            },
+            "properties": {
+                "name": "COM",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73656229179139,
+                    30.291054325299296
+                ]
+            },
+            "properties": {
+                "name": "CPB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72499401947717,
+                    30.27935700038418
+                ]
+            },
+            "properties": {
+                "name": "CPC",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72648298075724,
+                    30.282129985411714
+                ]
+            },
+            "properties": {
+                "name": "CRB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73338799259318,
+                    30.28853300506647
+                ]
+            },
+            "properties": {
+                "name": "CRH",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7356084238247,
+                    30.280184933333118
+                ]
+            },
+            "properties": {
+                "name": "CS3",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73213570950671,
+                    30.289083549525415
+                ]
+            },
+            "properties": {
+                "name": "CS4",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73461700007144,
+                    30.289766786604055
+                ]
+            },
+            "properties": {
+                "name": "CS5",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73624505196608,
+                    30.287234973779757
+                ]
+            },
+            "properties": {
+                "name": "CS6",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73272211008349,
+                    30.278771366955535
+                ]
+            },
+            "properties": {
+                "name": "CS7",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74010600416926,
+                    30.28870299006286
+                ]
+            },
+            "properties": {
+                "name": "CSS",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73501347053376,
+                    30.28712565872248
+                ]
+            },
+            "properties": {
+                "name": "CT1",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73458207564535,
+                    30.28708739084553
+                ]
+            },
+            "properties": {
+                "name": "CT2",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73272211008349,
+                    30.278771366955535
+                ]
+            },
+            "properties": {
+                "name": "CT7",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74133303097511,
+                    30.283388989178178
+                ]
+            },
+            "properties": {
+                "name": "D21",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74051998636709,
+                    30.283230990303323
+                ]
+            },
+            "properties": {
+                "name": "DCG",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72357303543183,
+                    30.28731800629167
+                ]
+            },
+            "properties": {
+                "name": "DEV",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72527422414473,
+                    30.279095099960113
+                ]
+            },
+            "properties": {
+                "name": "DFF",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.70408100341636,
+                    30.304783000752693
+                ]
+            },
+            "properties": {
+                "name": "DPI",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73197506226053,
+                    30.28709169405075
+                ]
+            },
+            "properties": {
+                "name": "DTB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72907701215198,
+                    30.287052006594394
+                ]
+            },
+            "properties": {
+                "name": "E11",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73263596824027,
+                    30.280523006934914
+                ]
+            },
+            "properties": {
+                "name": "E13",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73263596824027,
+                    30.280523006934914
+                ]
+            },
+            "properties": {
+                "name": "E15",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73506140329914,
+                    30.28712991070881
+                ]
+            },
+            "properties": {
+                "name": "E23",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73172797862311,
+                    30.287914993810674
+                ]
+            },
+            "properties": {
+                "name": "E24",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72273986316891,
+                    30.28512113958029
+                ]
+            },
+            "properties": {
+                "name": "E25",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73630598454564,
+                    30.292591983588693
+                ]
+            },
+            "properties": {
+                "name": "E26",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73803802101781,
+                    30.287673985719522
+                ]
+            },
+            "properties": {
+                "name": "E27",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7264479791965,
+                    30.27891779814821
+                ]
+            },
+            "properties": {
+                "name": "ECG",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73538196353958,
+                    30.28993399827273
+                ]
+            },
+            "properties": {
+                "name": "EHZ",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72273986316891,
+                    30.28512113958029
+                ]
+            },
+            "properties": {
+                "name": "F8A",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72273986316891,
+                    30.28512113958029
+                ]
+            },
+            "properties": {
+                "name": "FC1",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72273986316891,
+                    30.28512113958029
+                ]
+            },
+            "properties": {
+                "name": "FC2",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72273986316891,
+                    30.28512113958029
+                ]
+            },
+            "properties": {
+                "name": "FC3",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72273986316891,
+                    30.28512113958029
+                ]
+            },
+            "properties": {
+                "name": "FC4",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72273986316891,
+                    30.28512113958029
+                ]
+            },
+            "properties": {
+                "name": "FC5",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72273986316891,
+                    30.28512113958029
+                ]
+            },
+            "properties": {
+                "name": "FC6",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72273986316891,
+                    30.28512113958029
+                ]
+            },
+            "properties": {
+                "name": "FC7",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72273986316891,
+                    30.28512113958029
+                ]
+            },
+            "properties": {
+                "name": "FC8",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72273986316891,
+                    30.28512113958029
+                ]
+            },
+            "properties": {
+                "name": "FC9",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7410319822451,
+                    30.283810035747102
+                ]
+            },
+            "properties": {
+                "name": "FCS",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7380574,
+                    30.2861651
+                ]
+            },
+            "properties": {
+                "name": "FSB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7397369819659,
+                    30.287590293387602
+                ]
+            },
+            "properties": {
+                "name": "G17",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73863003483909,
+                    30.286349980293934
+                ]
+            },
+            "properties": {
+                "name": "GEB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.716812,
+                    30.289263
+                ]
+            },
+            "properties": {
+                "name": "GHA",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.716812,
+                    30.289263
+                ]
+            },
+            "properties": {
+                "name": "GHB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.716812,
+                    30.289263
+                ]
+            },
+            "properties": {
+                "name": "GHC",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.716812,
+                    30.289263
+                ]
+            },
+            "properties": {
+                "name": "GHD",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.716812,
+                    30.289263
+                ]
+            },
+            "properties": {
+                "name": "GHE",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.716812,
+                    30.289263
+                ]
+            },
+            "properties": {
+                "name": "GHF",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73634303255767,
+                    30.284018009101985
+                ]
+            },
+            "properties": {
+                "name": "GRC",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73634303255767,
+                    30.284018009101985
+                ]
+            },
+            "properties": {
+                "name": "GRF",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73634303255767,
+                    30.284018009101985
+                ]
+            },
+            "properties": {
+                "name": "GRP",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73634303255767,
+                    30.284018009101985
+                ]
+            },
+            "properties": {
+                "name": "GRS",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.716812,
+                    30.289263
+                ]
+            },
+            "properties": {
+                "name": "GSM",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74251719338218,
+                    30.279718090504637
+                ]
+            },
+            "properties": {
+                "name": "GUG",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73428100055749,
+                    30.277598980012158
+                ]
+            },
+            "properties": {
+                "name": "HCG",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73428100055749,
+                    30.277598980012158
+                ]
+            },
+            "properties": {
+                "name": "HDB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74063699773542,
+                    30.28688700883039
+                ]
+            },
+            "properties": {
+                "name": "HMA",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74123404069861,
+                    30.28433899408408
+                ]
+            },
+            "properties": {
+                "name": "HRC",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73789603157802,
+                    30.289221997507482
+                ]
+            },
+            "properties": {
+                "name": "HSM",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73428100055749,
+                    30.277598980012158
+                ]
+            },
+            "properties": {
+                "name": "HTB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72775229416527,
+                    30.317273432056982
+                ]
+            },
+            "properties": {
+                "name": "ICB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73074559377925,
+                    30.314152932207023
+                ]
+            },
+            "properties": {
+                "name": "IMA",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73075096203515,
+                    30.31383398934912
+                ]
+            },
+            "properties": {
+                "name": "IMB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72689372646501,
+                    30.286575833897473
+                ]
+            },
+            "properties": {
+                "name": "IPF",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7367010236423,
+                    30.28248600674908
+                ]
+            },
+            "properties": {
+                "name": "JCD",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7320400149245,
+                    30.27836898354738
+                ]
+            },
+            "properties": {
+                "name": "JHH",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7396510344649,
+                    30.29036901904753
+                ]
+            },
+            "properties": {
+                "name": "KIN",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.77875303187349,
+                    30.285072997345154
+                ]
+            },
+            "properties": {
+                "name": "LAC",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74029132003737,
+                    30.290180551838777
+                ]
+            },
+            "properties": {
+                "name": "LCH",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7367010236423,
+                    30.28248600674908
+                ]
+            },
+            "properties": {
+                "name": "LDH",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74078703380226,
+                    30.288108000665957
+                ]
+            },
+            "properties": {
+                "name": "LFH",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74072802520391,
+                    30.290578985722078
+                ]
+            },
+            "properties": {
+                "name": "LLA",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74072802520391,
+                    30.290578985722078
+                ]
+            },
+            "properties": {
+                "name": "LLB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74072802520391,
+                    30.290578985722078
+                ]
+            },
+            "properties": {
+                "name": "LLC",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74072802520391,
+                    30.290578985722078
+                ]
+            },
+            "properties": {
+                "name": "LLD",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74072802520391,
+                    30.290578985722078
+                ]
+            },
+            "properties": {
+                "name": "LLE",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74072802520391,
+                    30.290578985722078
+                ]
+            },
+            "properties": {
+                "name": "LLF",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72459998620889,
+                    30.282964990606047
+                ]
+            },
+            "properties": {
+                "name": "LNA",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73644504031932,
+                    30.29065199209873
+                ]
+            },
+            "properties": {
+                "name": "LS1",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74010826465171,
+                    30.290726227130875
+                ]
+            },
+            "properties": {
+                "name": "LTD",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73150321443939,
+                    30.281701612448817
+                ]
+            },
+            "properties": {
+                "name": "MAG",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73022097429737,
+                    30.281999018174602
+                ]
+            },
+            "properties": {
+                "name": "MCA",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73154904705073,
+                    30.281481844764777
+                ]
+            },
+            "properties": {
+                "name": "MFH",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7353669599329,
+                    30.28362301191484
+                ]
+            },
+            "properties": {
+                "name": "MHD",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73022097429737,
+                    30.281999018174602
+                ]
+            },
+            "properties": {
+                "name": "MMS",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7332294913048,
+                    30.281455902584636
+                ]
+            },
+            "properties": {
+                "name": "MNC",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72569097472619,
+                    30.282755987850365
+                ]
+            },
+            "properties": {
+                "name": "MSB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72866350729021,
+                    30.283423431414157
+                ]
+            },
+            "properties": {
+                "name": "MTC",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74345197609786,
+                    30.288427979819673
+                ]
+            },
+            "properties": {
+                "name": "N24",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7385590401192,
+                    30.288938982546767
+                ]
+            },
+            "properties": {
+                "name": "NMS",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74345197609786,
+                    30.288427979819673
+                ]
+            },
+            "properties": {
+                "name": "NUG",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73506140329914,
+                    30.28712991070881
+                ]
+            },
+            "properties": {
+                "name": "PA1",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73506140329914,
+                    30.28712991070881
+                ]
+            },
+            "properties": {
+                "name": "PA3",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73506140329914,
+                    30.28712991070881
+                ]
+            },
+            "properties": {
+                "name": "PA4",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73643095872198,
+                    30.288015003450226
+                ]
+            },
+            "properties": {
+                "name": "PAT",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73506140329914,
+                    30.28712991070881
+                ]
+            },
+            "properties": {
+                "name": "PB2",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73506140329914,
+                    30.28712991070881
+                ]
+            },
+            "properties": {
+                "name": "PB5",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73506140329914,
+                    30.28712991070881
+                ]
+            },
+            "properties": {
+                "name": "PB6",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73840900405236,
+                    30.28286201892554
+                ]
+            },
+            "properties": {
+                "name": "PCL",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72734231860387,
+                    30.285109172411637
+                ]
+            },
+            "properties": {
+                "name": "PH1",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72751691983153,
+                    30.284503327734186
+                ]
+            },
+            "properties": {
+                "name": "PH2",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73507702990206,
+                    30.28240700731166
+                ]
+            },
+            "properties": {
+                "name": "PHD",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73458207564535,
+                    30.28708739084553
+                ]
+            },
+            "properties": {
+                "name": "PPA",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73577599680786,
+                    30.286574992484674
+                ]
+            },
+            "properties": {
+                "name": "PPE",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73524134991409,
+                    30.287145877287198
+                ]
+            },
+            "properties": {
+                "name": "PPL",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.94441900120323,
+                    30.277165006975252
+                ]
+            },
+            "properties": {
+                "name": "PRH",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73510502545867,
+                    30.283036991154333
+                ]
+            },
+            "properties": {
+                "name": "RHD",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74124099767825,
+                    30.2818659973712
+                ]
+            },
+            "properties": {
+                "name": "RHG",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74265100143042,
+                    30.288792005874583
+                ]
+            },
+            "properties": {
+                "name": "SAG",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72505998505515,
+                    30.280389986131524
+                ]
+            },
+            "properties": {
+                "name": "SBS",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73322348876675,
+                    30.281583315101607
+                ]
+            },
+            "properties": {
+                "name": "SEZ",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73287803760398,
+                    30.287737017631414
+                ]
+            },
+            "properties": {
+                "name": "SJG",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73436398139893,
+                    30.28233701842015
+                ]
+            },
+            "properties": {
+                "name": "SJH",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73399098670761,
+                    30.276594995649802
+                ]
+            },
+            "properties": {
+                "name": "SMC",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72784806949416,
+                    30.280987599166235
+                ]
+            },
+            "properties": {
+                "name": "SOF",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73839400044568,
+                    30.290052979388292
+                ]
+            },
+            "properties": {
+                "name": "SSB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73263596824027,
+                    30.280523006934914
+                ]
+            },
+            "properties": {
+                "name": "SSW",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73333300730835,
+                    30.283948984129324
+                ]
+            },
+            "properties": {
+                "name": "STD",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73636197565885,
+                    30.290822982923515
+                ]
+            },
+            "properties": {
+                "name": "SW7",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73723696253134,
+                    30.29117598677574
+                ]
+            },
+            "properties": {
+                "name": "SWG",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73374093277083,
+                    30.28543936464682
+                ]
+            },
+            "properties": {
+                "name": "TCP",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.77580897220216,
+                    30.278631001840637
+                ]
+            },
+            "properties": {
+                "name": "TLB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73238300240244,
+                    30.28691701604376
+                ]
+            },
+            "properties": {
+                "name": "TMM",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73388596146083,
+                    30.27907901456537
+                ]
+            },
+            "properties": {
+                "name": "TRG",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73287803760398,
+                    30.287737017631414
+                ]
+            },
+            "properties": {
+                "name": "TS1",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73272211008349,
+                    30.278771366955535
+                ]
+            },
+            "properties": {
+                "name": "TS2",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72642739752207,
+                    30.31669038844356
+                ]
+            },
+            "properties": {
+                "name": "TSB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73797681641484,
+                    30.29167951088468
+                ]
+            },
+            "properties": {
+                "name": "TSG",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73347399091975,
+                    30.27987998923281
+                ]
+            },
+            "properties": {
+                "name": "TSP",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72695002040219,
+                    30.28134401435095
+                ]
+            },
+            "properties": {
+                "name": "TTC",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73677604167572,
+                    30.29069201568639
+                ]
+            },
+            "properties": {
+                "name": "UA9",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72380404068335,
+                    30.28328999890168
+                ]
+            },
+            "properties": {
+                "name": "UIL",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74116698547321,
+                    30.286499010532395
+                ]
+            },
+            "properties": {
+                "name": "UNB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7304219723355,
+                    30.28407299438682
+                ]
+            },
+            "properties": {
+                "name": "UPB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73445098555388,
+                    30.284257019071035
+                ]
+            },
+            "properties": {
+                "name": "UTX",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.67202500145511,
+                    30.26677500934656
+                ]
+            },
+            "properties": {
+                "name": "VRX",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73351900173981,
+                    30.278485994915698
+                ]
+            },
+            "properties": {
+                "name": "WAT",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.73364380544717,
+                    30.28587907695888
+                ]
+            },
+            "properties": {
+                "name": "WCS",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72947276720787,
+                    30.31605749442994
+                ]
+            },
+            "properties": {
+                "name": "WGB",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.74166897765438,
+                    30.2830669983677
+                ]
+            },
+            "properties": {
+                "name": "Z02",
+                "total_rooms": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.72469101367737,
+                    30.27937699122326
+                ]
+            },
+            "properties": {
+                "name": "Z18",
+                "total_rooms": 0
+            }
+        }
+    ]
+}
