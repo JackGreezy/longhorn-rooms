@@ -4,17 +4,13 @@ import MapView from "@arcgis/core/views/MapView"
 import OAuthInfo from "@arcgis/core/identity/OAuthInfo"
 import IdentityManager from "@arcgis/core/identity/IdentityManager"
 import FeatureLayer from "@arcgis/core/layers/FeatureLayer"
-
-interface FeatureData {
-  id: string
-  attributes: Record<string, any>
-}
+import { Room } from "@/types/Room"
 
 interface CampusMapProps {
-  setFeatures: React.Dispatch<React.SetStateAction<FeatureData[]>>
+  setRooms: React.Dispatch<React.SetStateAction<Room[]>>
 }
 
-export default function CampusMap({ setFeatures }: CampusMapProps) {
+export default function CampusMap({ setRooms }: CampusMapProps) {
   const mapDiv = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -43,7 +39,7 @@ export default function CampusMap({ setFeatures }: CampusMapProps) {
         await view.when()
         console.log("Map and View loaded")
 
-        const fetchedFeatures: FeatureData[] = []
+        const fetchedFeatures: Room[] = []
 
         webMap.allLayers.forEach(async (layer) => {
           if (layer.type === "feature") {
@@ -64,7 +60,7 @@ export default function CampusMap({ setFeatures }: CampusMapProps) {
                 })
               })
 
-              setFeatures((prevFeatures) => [...prevFeatures, ...fetchedFeatures])
+              setRooms((prevFeatures) => [...prevFeatures, ...fetchedFeatures])
             } catch (error) {
               console.error(`Error querying features for ${featureLayer.title}:`, error)
             }
@@ -82,7 +78,7 @@ export default function CampusMap({ setFeatures }: CampusMapProps) {
         mapDiv.current.innerHTML = ""
       }
     }
-  }, [setFeatures])
+  }, [setRooms])
 
   return <div ref={mapDiv} style={{ height: "100vh", width: "100%" }} />
 }

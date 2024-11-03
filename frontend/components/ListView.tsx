@@ -1,7 +1,12 @@
-export default function ListView() {
+import { Room } from "@/types/Room"
+import ListCard from "./ListCard"
+
+export default function ListView({ rooms }: { rooms: Room[] }) {
   return (
-    <div className="flex items-center justify-center h-full">
-      <p>List View Component (currently empty)</p>
+    <div className="flex flex-wrap items-center justify-center h-full p-4">
+      {rooms.map((room) => (
+        <ListCard key={room.id} room={room} />
+      ))}
     </div>
   )
 }
