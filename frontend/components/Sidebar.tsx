@@ -13,6 +13,7 @@ const Sidebar: React.FC = () => {
       return newRange
     })
   }
+  
   return (
     <div className="sidebar">
       <div className="header">
@@ -42,9 +43,10 @@ const Sidebar: React.FC = () => {
         </div>
       </div>
       <div className="chatbot-prompt">
-        <button className="chat-button">Don't know where to study? Ask our Chat Bot</button>
+        <button className="chat-button">Don&apos;t know where to study? Ask our Chat Bot</button>
       </div>
     </div>
   )
 }
+
 export default Sidebar

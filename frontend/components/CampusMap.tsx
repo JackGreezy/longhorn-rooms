@@ -78,7 +78,7 @@ export default function CampusMap({ setRooms }: CampusMapProps) {
         mapDiv.current.innerHTML = ""
       }
     }
-  }, [setRooms])
+  }, [setRooms]) // eslint-disable-line react-hooks/exhaustive-deps
 
   return <div ref={mapDiv} style={{ height: "100vh", width: "100%" }} />
 }
