@@ -16,6 +16,8 @@ export default function CampusMap({ setRooms }: CampusMapProps) {
   useEffect(() => {
     if (typeof window === "undefined") return // Exit if not in the browser
 
+    const mapContainer = mapDiv.current // Save current reference to avoid dependency issues
+
     const initializeMap = async () => {
       try {
         const info = new OAuthInfo({
@@ -32,7 +34,7 @@ export default function CampusMap({ setRooms }: CampusMapProps) {
         })
 
         const view = new MapView({
-          container: mapDiv.current as HTMLDivElement,
+          container: mapContainer as HTMLDivElement, // Use the saved reference
           map: webMap,
         })
 
@@ -74,8 +76,8 @@ export default function CampusMap({ setRooms }: CampusMapProps) {
     initializeMap()
 
     return () => {
-      if (mapDiv.current) {
-        mapDiv.current.innerHTML = ""
+      if (mapContainer) { // Use the saved reference for cleanup
+        mapContainer.innerHTML = ""
       }
     }
   }, [setRooms]) // eslint-disable-line react-hooks/exhaustive-deps

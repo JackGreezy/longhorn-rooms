@@ -1,7 +1,7 @@
 import { Room } from "@/types/Room"
 import ListCard from "./ListCard"
 import { useState } from "react"
-import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription, SheetTrigger } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription } from "@/components/ui/sheet"
 
 export default function ListView({ rooms }: { rooms: Room[] }) {
   const [selectedRoom, setSelectedRoom] = useState<Room | null>(null)
