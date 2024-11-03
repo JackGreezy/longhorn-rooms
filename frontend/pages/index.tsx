@@ -2,7 +2,6 @@ import { useState } from "react"
 import dynamic from "next/dynamic"
 import ListView from "@/components/ListView"
 import ControlPanel from "@/components/ControlPanel"
-import Header from "@/components/Header"
 import { Room } from "@/types/Room"
 
 const CampusMap = dynamic(() => import("../components/CampusMap"), { ssr: false })

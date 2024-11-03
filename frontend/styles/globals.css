@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.image-container {
+   display: flex;
+   justify-content: center; /* Center images horizontally */
+   gap: 20px; /* Add space between images */
+   margin-top: 20px; /* Optional: add some top margin */
+ }
+ .profile-item {
+  text-align: center; /* Centers text under each image */
+}
+ .caption {
+  margin-top: 8px; /* Adds some space between the image and the text */
+  font-size: 14px; /* Optional: adjust the font size of the caption */
+  color: #333; /* Optional: adjust the color of the caption */
+  margin-bottom: 100px; /* Adjust the value as needed */
+}
