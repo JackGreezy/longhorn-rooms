@@ -35,6 +35,9 @@ else:
 
         # Only process if the building is WCP
         total_rooms = building_info.get("total_rooms", 0)
+
+        if total_rooms == 0:
+            continue
         coordinates = building_info.get("coordinates")
 
         if not coordinates:
