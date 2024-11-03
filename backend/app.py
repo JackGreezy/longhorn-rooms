@@ -1,6 +1,6 @@
-from flask import Flask, jsonify, request
+from datetime import datetime
+from flask import Flask, jsonify
 from pymongo import MongoClient
-from datetime import datetime, timedelta
 import os
 from dotenv import load_dotenv
 
@@ -21,8 +21,6 @@ client = MongoClient(connection_string)
 db = client[MONGO_DB_NAME]
 collection = db["structured_room_schedule"]
 
-day_order = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-
 # Utility function to get today's day and current time
 def get_current_day_and_time():
     now = datetime.now()
@@ -30,88 +28,54 @@ def get_current_day_and_time():
     current_time = now.time()
     return current_day, current_time
 
-# Endpoint 1: Get available rooms at the current time
-@app.route('/api/available_rooms', methods=['GET'])
-def get_available_rooms():
-    # Fetch all documents in "room_schedules" collection
-    room_schedules = list(db.room_schedules.find({}))
-    data = [{**room, "_id": str(room["_id"])} for room in room_schedules]  # Convert ObjectIds to strings
-    return jsonify(data)
-
-# def get_available_rooms():
-#     building_availability = {}
-#     current_day, current_time = get_current_day_and_time()
-
-#     # Query the database for each building and room schedule
-#     for building in collection.find():
-#         building_name = building["_id"]
-#         total_rooms = building["total_rooms"]
-#         available_rooms = []
-        
-#         for room_number, schedules in building["rooms"].items():
-#             # Check if room is available at the current time
-#             is_available = True
-#             for schedule in schedules:
-#                 if schedule["day"] == current_day:
-#                     start_time = datetime.strptime(schedule["start_time"], "%I:%M %p").time()
-#                     end_time = datetime.strptime(schedule["end_time"], "%I:%M %p").time()
-#                     if start_time <= current_time <= end_time:
-#                         is_available = False
-#                         break
-#             if is_available:
-#                 available_rooms.append(room_number)
-
-#         # Store availability count and room numbers
-#         building_availability[building_name] = {
-#             "total_rooms": total_rooms,
-#             "available_rooms": available_rooms,
-#             "available_count": len(available_rooms)
-#         }
-
-#     return jsonify(building_availability)
-
-# Endpoint 2: Get available rooms within a specified time range
-@app.route('/api/available_rooms_in_range', methods=['GET'])
-def get_available_rooms_in_range():
+# Endpoint to get available room count for each building
+@app.route('/api/building_availability', methods=['GET'])
+def get_building_availability():
     try:
-        day = request.args.get('day')  # Example: "Monday"
-        start_time_str = request.args.get('start_time')  # Example: "13:00"
-        end_time_str = request.args.get('end_time')  # Example: "15:00"
-        
-        start_time = datetime.strptime(start_time_str, "%H:%M").time()
-        end_time = datetime.strptime(end_time_str, "%H:%M").time()
-
         building_availability = {}
+        current_day, current_time = get_current_day_and_time()
 
-        # Query the database for each building and room schedule
-        for building in collection.find():
-            building_name = building["_id"]
-            total_rooms = building["total_rooms"]
-            available_rooms = []
+        # Fetch the single document containing all building data
+        building_data = collection.find_one()
+        if not building_data or "buildings" not in building_data:
+            print("No building data found or 'buildings' key missing.")
+            return jsonify({"error": "No building data found"}), 404
 
-            for room_number, schedules in building["rooms"].items():
-                # Check if room is available within the specified time range
+        # Loop through each building in the "buildings" array
+        for building_info in building_data["buildings"]:
+            building_name = building_info.get("name")
+            total_rooms = building_info.get("total_rooms", 0)
+            available_count = 0
+
+            # Check each room in the building
+            for room in building_info.get("rooms", []):
+                room_number = room.get("room_number")
+                schedules = room.get("schedule", [])
                 is_available = True
+
+                # Check if the room is available at the current time
                 for schedule in schedules:
-                    if schedule["day"] == day:
-                        sched_start = datetime.strptime(schedule["start_time"], "%I:%M %p").time()
-                        sched_end = datetime.strptime(schedule["end_time"], "%I:%M %p").time()
-                        if not (sched_end <= start_time or sched_start >= end_time):
+                    if schedule["day"] == current_day:
+                        start_time = datetime.strptime(schedule["start_time"], "%I:%M %p").time()
+                        end_time = datetime.strptime(schedule["end_time"], "%I:%M %p").time()
+                        if start_time <= current_time <= end_time:
                             is_available = False
                             break
+
                 if is_available:
-                    available_rooms.append(room_number)
+                    available_count += 1
 
             building_availability[building_name] = {
                 "total_rooms": total_rooms,
-                "available_rooms": available_rooms,
-                "available_count": len(available_rooms)
+                "available_count": available_count
             }
 
+        # Return the building availability data
         return jsonify(building_availability)
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 400
+        print(f"Internal server error: {e}")
+        return jsonify({"error": "Internal server error", "details": str(e)}), 500
 
 # Run the app
 if __name__ == "__main__":
