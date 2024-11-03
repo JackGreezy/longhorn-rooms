@@ -27,34 +27,43 @@ geojson = {
 building_data = collection.find_one()
 if not building_data or "buildings" not in building_data:
     print("No building data found or 'buildings' key missing.")
+else:
+    # Loop through each building in the "buildings" array
+    for building_info in building_data["buildings"]:
+        building_name = building_info.get("name")
 
-for building_info in building_data["buildings"]:
-    building_name = building_info.get("name")
-    total_rooms = building_info.get("total_rooms", 0)
-    coordinates = building_info.get("coordinates")
 
-    if not coordinates:
-        print(f"Skipping building due to missing coordinates: {building_name}")
-        continue
+        # Only process if the building is WCP
+        total_rooms = building_info.get("total_rooms", 0)
+        coordinates = building_info.get("coordinates")
 
-    latitude = coordinates.get("latitude")
-    longitude = coordinates.get("longitude")
+        if not coordinates:
+            print(f"Skipping building due to missing coordinates: {building_name}")
+            continue
 
-   
-    # Create GeoJSON feature
-    geojson_feature = {
-        "type": "Feature",
-        "geometry": {
-            "type": "Point",
-            "coordinates": [longitude, latitude]
-        },
-        "properties": {
-            "name": building_name,
-            "total_rooms": total_rooms
+        latitude = coordinates.get("latitude")
+        longitude = coordinates.get("longitude")
+
+        rooms = building_info.get("rooms") 
+            
+    
+
+        # Create GeoJSON feature
+        geojson_feature = {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [longitude, latitude]
+            },
+            "properties": {
+                "name": building_name,
+                "total_rooms": total_rooms,
+                "rooms": rooms
+            }
+
         }
-    }
-    geojson["features"].append(geojson_feature)
-    print(f"Added feature for building: {building_name}")
+        geojson["features"].append(geojson_feature)
+        print(f"Added feature for building: {building_name}")
 
 # Debugging: Confirm features array is populated
 print(f"Total features added: {len(geojson['features'])}")
@@ -63,4 +72,4 @@ print(f"Total features added: {len(geojson['features'])}")
 with open("output_geojson.json", "w") as f:
     json.dump(geojson, f, indent=4)
 
-print("GeoJSON data has been written to output_geojson.json")
+print("GeoJSON data has been written to output_geojson_test.json")
